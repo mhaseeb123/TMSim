@@ -1,0 +1,27 @@
+# Date: 11/30/2017
+# Class: CS-5800 | Fall-2017
+# Project: Turing Machine Simulator
+# Author: Muhammad Haseeb
+
+# Turing Machine Configuration
+# options: standard, LanguageAcceptor
+Machine=standard
+
+# Set of States
+Q=q0,q1,q2,q3,q4,q5
+
+# Set of Input Alphabets and Markers
+E=a,b
+
+# Initial State
+I=q0
+
+# Transition Table
+# Separated by |
+S|B|a|b
+q0|q1,B,R|nil,nil,nil|nil,nil,nil
+q1|q2,B,L|q1,a,R|q1,b,R
+q2|nil,nil,nil|q3,B,R|q5,B,R
+q3|q4,a,L|nil,nil,nil|nil,nil,nil
+q4|q2,B,L|nil,nil,nil|nil,nil,nil
+q5|q4,b,L|nil,nil,nil|nil,nil,nil

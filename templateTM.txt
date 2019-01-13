@@ -1,0 +1,26 @@
+# Auto-generated template for Turing Machine
+# Generated at: 2017-12-06 13:44:59 -0500 Eastern Standard Time
+
+# Turing Machine Configuration
+# options: standard, LanguageAcceptor
+Machine=standard
+
+# Set of States and Markers separated by comma
+Q=q0,q1,q2
+
+# Set of Input Alphabets separated by comma
+E=a,b
+
+# Initial State
+I=q0
+
+# Set of Final states separated by comma
+# Required for only Language Acceptors. Ignored otherwise
+F=q2
+
+# Transition Table
+# Separated by pipe
+S|B|a|b
+q0|q1,B,R|nil,nil,nil|nil,nil,nil
+q1|q2,B,L|q1,b,R|q1,a,R
+q2|nil,nil,nil|q2,a,L|q2,b,L

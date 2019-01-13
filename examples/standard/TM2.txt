@@ -1,0 +1,29 @@
+# Date: 11/30/2017
+# Class: CS-5800 | Fall-2017
+# Project: Turing Machine Simulator
+# Author: Muhammad Haseeb
+
+# COPY Machine: Convert Bub to BuBuB
+
+# Turing Machine Configuration
+Machine=standard
+
+# Set of States
+Q=q0,q1,q2,q3,q4,q5,q6,q7
+
+# Set of Input Alphabets and Markers
+E=a,b,X,Y
+
+# Initial State
+I=q0
+
+# Transition Table
+S|B|a|b|X|Y
+q0|q1,B,R|nil,nil,nil|nil,nil,nil|nil,nil,nil|nil,nil,nil
+q1|q7,B,L|q2,X,R|q5,Y,R|nil,nil,nil|nil,nil,nil
+q2|q3,B,R|q2,a,R|q2,b,R|nil,nil,nil|nil,nil,nil
+q3|q4,a,L|q3,a,R|q3,b,R|nil,nil,nil|nil,nil,nil
+q4|q4,B,L|q4,a,L|q4,b,L|q1,X,R|q1,Y,R
+q5|q6,B,R|q5,a,R|q5,b,R|nil,nil,nil|nil,nil,nil
+q6|q4,b,L|q6,a,R|q6,b,R|nil,nil,nil|nil,nil,nil
+q7|nil,nil,nil|nil,nil,nil|nil,nil,nil|q7,a,L|q7,b,L

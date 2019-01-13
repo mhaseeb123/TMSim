@@ -1,0 +1,29 @@
+# Date: 11/30/2017
+# Class: CS-5800 | Fall-2017
+# Project: Turing Machine Simulator
+# Author: Muhammad Haseeb
+
+# FN2: Compute the pred(n) = { 0 if n=0; n-1 otherwise} 
+
+# Turing Machine Configuration
+# options: standard, LanguageAcceptor
+Machine=standard
+
+# Set of States
+Q=q0,q1,q2,q3,q4,qf
+
+# Set of Input Alphabets and Markers
+E=1
+
+# Initial State
+I=q0
+
+# Transition Table
+# Separated by |
+S|B|1
+q0|q1,B,R|nil,nil,nil
+q1|nil,nil,nil|q2,1,R
+q2|qf,B,L|q3,1,R
+q3|q4,B,L|q3,1,R
+q4|nil,nil,nil|qf,B,L
+qf|nil,nil,nil|qf,1,L

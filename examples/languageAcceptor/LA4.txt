@@ -1,0 +1,31 @@
+# Date: 11/30/2017
+# Class: CS-5800 | Fall-2017
+# Project: Turing Machine Simulator
+# Author: Muhammad Haseeb
+
+# Turing Machine Configuration
+Machine=LanguageAcceptor
+
+# LA4: Strings with same number of a's and b's
+
+# Set of States
+Q=q0,q1,q2,q3,q4,q5,qf
+
+# Set of Input Alphabets and Markers
+E=a,b,X,Y
+
+# Set of Final States
+F=qf
+
+# Initial State
+I=q0
+
+# Transition Table
+S|B|a|b|X|Y
+q0|q1,B,R|nil,nil,nil|nil,nil,nil|nil,nil,nil|nil,nil,nil
+q1|qf,B,R|q2,X,R|q3,Y,R|q1,X,R|q1,Y,R
+q2|nil,nil,nil|q2,a,R|q4,Y,L|nil,nil,nil|q2,Y,R
+q3|nil,nil,nil|q5,X,L|q3,b,R|q3,X,R|nil,nil,nil
+q4|nil,nil,nil|q4,a,L|nil,nil,nil|q1,X,R|q4,Y,L
+q5|nil,nil,nil|nil,nil,nil|q5,b,L|q5,X,L|q1,Y,R
+qf|nil,nil,nil|nil,nil,nil|nil,nil,nil|nil,nil,nil|nil,nil,nil

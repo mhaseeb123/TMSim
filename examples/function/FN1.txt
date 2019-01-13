@@ -1,0 +1,29 @@
+# Date: 11/30/2017
+# Class: CS-5800 | Fall-2017
+# Project: Turing Machine Simulator
+# Author: Muhammad Haseeb
+
+# FN1: Compute the f(n) = floor(n/2)
+
+# Turing Machine Configuration
+# options: standard, LanguageAcceptor
+Machine=standard
+
+# Set of States
+Q=q0,q1,q2,q3,q4,qf
+
+# Set of Input Alphabets and Markers
+E=1,X
+
+# Initial State
+I=q0
+
+# Transition Table
+# Separated by |
+S|B|1|X
+q0|q1,B,R|nil,nil,nil|nil,nil,nil
+q1|qf,B,L|q2,X,R|nil,nil,nil
+q2|q3,B,L|q2,1,R|nil,nil,nil
+q3|nil,nil,nil|q4,B,L|q4,B,L
+q4|nil,nil,nil|q4,1,L|q1,X,R
+qf|nil,nil,nil|nil,nil,nil|qf,1,L

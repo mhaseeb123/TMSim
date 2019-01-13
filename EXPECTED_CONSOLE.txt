@@ -1,0 +1,79 @@
+# Date: 12/06/2017
+# Class: CS-5800 | Fall-2017
+# Project: Turing Machine
+# Author: Muhammad Haseeb
+
+EXPECTED CONSOLE OUTPUT (Cygwin)
+
+
+mhsb1@MI-MHASEEB-LT MINGW64 ~/RubymineProjects/CS-5800-TuringMachine-MuhammadHaseeb/code_project
+$ ruby main.rb -t
+
+ ############ TURING MACHINE Simulator Software ##############
+ #                                                           #
+ # Muhammad Haseeb                                           #
+ # PhD student, Computer_Science                             #
+ # Western Michigan University                               #
+ # CS-5800: Theory Foundations - Fall 2017                   #
+ #                                                           #
+ #############################################################
+
+ TM_Simulator: Generated a template Turing Machine file "templateTM.txt"
+
+======= Thanks for using this software =======
+
+
+mhsb1@MI-MHASEEB-LT MINGW64 ~/RubymineProjects/CS-5800-TuringMachine-MuhammadHaseeb/code_project
+$ ruby main.rb
+
+ ############ TURING MACHINE Simulator Software ##############
+ #                                                           #
+ # Muhammad Haseeb                                           #
+ # PhD student, Computer_Science                             #
+ # Western Michigan University                               #
+ # CS-5800: Theory Foundations - Fall 2017                   #
+ #                                                           #
+ #############################################################
+
+
+============== Main Menu ===============
+
+1. Initialize a new Turing Machine
+2. Exit
+/> 1
+
+
+Enter the relative or absolute path to TM input file OR -1 to back to main menu
+
+Note: Only use the forward slashes. example: ./path/to/TM_file.txt
+
+/> ./examples/function/FN1.txt
+
+The Turing Machine initialized successfully..!
+
+
+Enter the string for tape (T): /> 11111111
+
+Number of extra blanks "B"s to append at end of string /> 2
+
+
+==== Simulating the Standard Turing Machine on input string: 11111111BBBBBBBBBB ====
+
+ Tape:  B1111BBBBBBBBBBBBBBBB
+        ^
+ Head> [qf]
+
+==== SUCCESS: Turing Machine halted normally ====
+
+
+Do you want to enter another string for the same Turing Machine? Y/N? /> n
+
+
+
+============== Main Menu ===============
+
+1. Initialize a new Turing Machine
+2. Exit
+/> 2
+
+======= Thanks for using this software =======

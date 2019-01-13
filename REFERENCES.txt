@@ -1,0 +1,33 @@
+# Date: 11/05/2017
+# Class: CS-5800 | Fall-2017
+# Assignment: Assignment 3
+# Author: Muhammad Haseeb
+
+REFERENCES:
+Help with Ruby Arrays, Matrix, and String operations has been taken from following sources:
+
+01. https://stackoverflow.com/questions/15993198/ruby-how-to-skip-ignore-specific-lines-when-reading-a-file
+02. https://stackoverflow.com/questions/1577542/variables-magic-and-read-from-file
+03. https://ruby-doc.org/core-2.2.0/String.html#method-i-chomp
+04. http://ruby-doc.org/stdlib-2.0.0/libdoc/matrix/rdoc/Matrix.html#method-c-build
+05. https://stackoverflow.com/questions/3614389/what-is-the-easiest-way-to-remove-the-first-character-from-a-string
+06. https://www.google.com/search?q=ruby+next+until&rlz=1C1CHBF_enUS768US768&oq=ruby+next+until&aqs=chrome..69i57.4528j0j7&sourceid=chrome&ie=UTF-8
+07. https://docs.ruby-lang.org/en/2.0.0/Array.html
+08. https://ruby-doc.org/core-2.2.0/String.html
+09. https://stackoverflow.com/questions/9095017/comparing-two-arrays-in-ruby
+10. https://ruby-doc.org/core-2.2.1/Array.html#method-i-push
+11. https://stackoverflow.com/questions/16011252/add-a-row-array-to-an-empty-matrix
+12. https://stackoverflow.com/questions/10789022/how-do-i-split-a-string-in-an-array
+13. https://stackoverflow.com/questions/975769/how-to-split-a-delimited-string-in-ruby-and-convert-it-to-an-array
+14. https://www.tutorialspoint.com/ruby/ruby_loops.htm
+15. https://www.google.com/search?rlz=1C1CHBF_enUS768US768&ei=dVQkWofxMYOPjwTO45yABQ&q=PRINT+AND+overwrite+multiple+lines+ruby&oq=PRINT+AND+overwrite+multiple+lines+ruby&gs_l=psy-ab.3...1896731.1900179.0.1900444.19.19.0.0.0.0.140.1586.12j5.17.0....0...1c.1.64.psy-ab..6.4.340...0i7i30k1j0i30k1.0.fpRWse7ztrQ
+16. https://stackoverflow.com/questions/14969458/deleting-multiple-lines-of-terminal-output-using-ruby
+17. https://blog.stevenocchipinti.com/2013/06/removing-previously-printed-lines.html/
+18. https://www.skorks.com/2009/09/ruby-exceptions-and-exception-handling/
+19. https://stackoverflow.com/questions/8590098/how-to-check-for-file-existence
+20. http://ruby-doc.org/docs/ruby-doc-bundle/Tutorial/part_02/user_input.html
+21. https://www.google.com/search?rlz=1C1CHBF_enUS768US768&ei=VYAkWp6kNoTZjwTltqz4Bg&q=processing+command+line+ruby&oq=processing+command+line+ruby&gs_l=psy-ab.3..0i22i30k1l2.3624.4687.0.4893.5.5.0.0.0.0.129.252.0j2.2.0....0...1c.1.64.psy-ab..3.2.252...0.0.0Ma6MLaVlns
+22. https://docs.ruby-lang.org/en/2.1.0/OptionParser.html#method-c-getopts
+23. http://www.justskins.com/forums/how-to-end-script-71492.html
+24. https://stackoverflow.com/questions/2777802/how-to-write-to-file-in-ruby
+25. https://www.tutorialspoint.com/ruby/ruby_date_time.htm
